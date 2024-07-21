@@ -85,7 +85,7 @@ function App() {
             onClick={() => {
               let number1 = Number(numberOne.current.value);
               let number2 = Number(numberTwo.current.value);
-              let Division = number1 % number2;
+              let Division = number1 / number2;
 
               console.log(Division);
             }}
